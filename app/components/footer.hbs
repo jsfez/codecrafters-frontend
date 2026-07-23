@@ -3,7 +3,7 @@
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-        <div class="xl:col-span-1">
+        <div class="xl:col-span-1 xl:order-2">
           <a href="https://codecrafters.io" class="inline-flex" target="_blank" rel="noopener noreferrer">
             <img class="h-6" src={{this.wordmarkDark}} alt="CodeCrafters" />
           </a>
@@ -35,7 +35,7 @@
         <div
           class="mt-12 grid grid-cols-2
             {{if (eq this.footerLinkGroups.length 4) 'md:grid-cols-4' 'md:grid-cols-3'}}
-            gap-x-8 gap-y-12 xl:mt-0 xl:col-span-2"
+            gap-x-8 gap-y-12 xl:mt-0 xl:col-span-2 xl:order-1"
         >
           {{#each this.footerLinkGroups as |footerLinkGroup|}}
             <div>
