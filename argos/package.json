@@ -1,0 +1,10 @@
+{
+  "name": "codecrafters-frontend-argos",
+  "private": true,
+  "type": "module",
+  "description": "Argos visual testing setup, kept isolated from the app dependencies so bun.lock stays untouched.",
+  "devDependencies": {
+    "@argos-ci/playwright": "7.3.6",
+    "@playwright/test": "1.61.1"
+  }
+}
